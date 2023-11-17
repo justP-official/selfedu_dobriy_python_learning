@@ -1,0 +1,12 @@
+Подвиг 4.
+В рабочем каталоге проекта содержится файл panda.py, в котором объявлена переменная PND и функция с именем panda_say.
+Отметьте команды, которые позволяют импортировать из модуля panda.py эти элементы (программа также находится в рабочем каталоге).
+
+
+from panda import panda.PND, panda.panda_say
+
+import panda                                   +
+
+import panda.PND, panda.panda_say
+
+from panda import PND, panda_say               +

@@ -1,0 +1,14 @@
+Подвиг 2.
+В рабочем каталоге проекта с текущей программой имеется подкаталог libs в котором находится файл panda.py.
+Отметьте команды, которые позволяют импортировать этот модуль в программу.
+
+
+import libs.panda              +
+
+import libs.panda.py
+
+from libs.panda import *       +
+
+import libs/panda
+
+from libs/panda import *

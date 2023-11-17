@@ -1,0 +1,16 @@
+Подвиг 3.
+В рабочем каталоге проекта находится файл panda.py, а в подкаталоге libs - исполняемый файл, в котором импортируется модуль panda.py.
+Отметьте команды, которые позволяют импортировать этот модуль в программу.
+
+
+import panda                   +
+
+from .. panda.py import *
+
+from panda import *            +
+
+import .. panda
+
+import .. panda.py
+
+from .. panda import *

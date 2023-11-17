@@ -1,0 +1,21 @@
+Подвиг 7.
+
+В модуле panda.py дополнительное импортируется модуль kungfu.py командой:
+
+import kungfu
+
+В этом модуле определена переменная с именем KUNGFU. Модуль panda.py импортируется в программу командой:
+
+import panda
+
+Какая команда позволяет корректно обращаться к переменной KUNGFU?
+
+
+
+panda.kungfu.KUNGFU  +
+
+panda.KUNGFU
+
+kungfu.KUNGFU
+
+KUNGFU
