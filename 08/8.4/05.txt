@@ -1,0 +1,18 @@
+Подвиг 5. В пакете panda_pack имеется модуль panda.py, в котором определена переменная PND.
+В файле __init__.py модуль импортируется командой:
+
+from . import panda
+
+Как в программе обратиться к переменной PND, если пакет импортируется командой:
+
+import panda_pack
+
+----------------------
+
+panda_pack.PND
+
+PND
+
+panda_pack.panda.PND   +
+
+panda.PND

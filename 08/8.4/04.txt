@@ -1,0 +1,15 @@
+Подвиг 4. В пакете panda_pack имеется модуль panda.py.
+Отметьте команды, записанные в файле __init__.py, которые позволяют импортировать либо сам модуль panda.py,
+либо его содержимое:
+
+from panda_pack.panda import *  +
+
+from .panda import *            +
+
+import panda_pack.panda         +
+
+from panda import *
+
+import panda
+
+import .panda

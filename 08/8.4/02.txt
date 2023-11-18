@@ -1,0 +1,12 @@
+Подвиг 2. С помощью каких команд можно выполнить импорт пакета с именем panda_pack?
+
+
+from panda_pack package *
+
+from panda_pack import *      +
+
+package panda_pack
+
+import package panda_pack
+
+import panda_pack              +
