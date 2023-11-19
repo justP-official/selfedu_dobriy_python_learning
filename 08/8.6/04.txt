@@ -1,0 +1,16 @@
+Подвиг 4. Имеется фрагмент программы:
+
+file = open("my_file.txt")
+s = file.readline()
+file.close()
+Как правильно здесь записать менеджер контекста?
+
+----------------------------------------
+
+with open("my_file.txt") as file: ...  +
+
+with open as file("my_file.txt"): ...
+
+with ("my_file.txt") as file: ...
+
+with file as open("my_file.txt"): ...
