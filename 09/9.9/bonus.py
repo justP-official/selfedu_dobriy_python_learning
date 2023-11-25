@@ -20,4 +20,4 @@ col_2 = all(map(true_x, p[1::3]))
 col_3 = all(map(true_x, p[2::3]))
 
 left_diagonal = all(map(true_x, p[::4]))
-right_diagonal = all(map(true_x, p[2::2]))
+right_diagonal = all(map(true_x, p[2:7:2]))
